@@ -1,0 +1,25 @@
+{
+    "name": "osm",
+    "displayName": "Osmon Lang Support",
+    "description": "Osmon Dasturlash Tili",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "osm",
+            "aliases": ["Osmon Lang", "osm"],
+            "extensions": [".osm"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "osm",
+            "scopeName": "source.osm",
+            "path": "./syntaxes/osm.tmLanguage.json"
+        }]
+    }
+}
