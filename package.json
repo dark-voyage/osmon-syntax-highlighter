@@ -1,23 +1,30 @@
 {
-    "name": "osm",
-    "displayName": "Osmon Lang Support",
-    "description": "Osmon Dasturlash Tili",
-    "version": "0.0.1",
+    "name": "osmon",
+    "displayName": "Osmon Lang",
+    "description": "Osmon Dasturlash Tili uchun VSCode kengaytma",
+    "version": "0.2.1",
+    "publisher": "osmon",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/osmon-lang/osmon-syntax-highlighter"
+    },    
     "engines": {
         "vscode": "^1.66.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+        "Snippets"
     ],
+    "icon": "images/icon.png",
     "contributes": {
         "languages": [{
-            "id": "osm",
-            "aliases": ["Osmon Lang", "osm"],
+            "id": "osmon",
+            "aliases": ["Osmon Lang", "osmon","osm"],
             "extensions": [".osm"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "osm",
+            "language": "osmon",
             "scopeName": "source.osm",
             "path": "./syntaxes/osm.tmLanguage.json"
         }]
