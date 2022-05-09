@@ -23,7 +23,7 @@
 		  "patterns": [
 			{
 			  "name": "keyword.control.osmon",
-			  "match": "\\b(joy|agar|tuga|unda|toki|qachonki|qayta|toxta|qaytar|yangi|funksiya|tur|shu|klass|label|goto)\\b"
+			  "match": "\\b(joy|agar|tuga|unda|toki|qachonki|qayta|toxta|qaytar|yangi|funksiya|tur|shu|guruh|label|goto)\\b"
 			},
 			{
 			  "name": "keyword.operator.arrow.osmon",
