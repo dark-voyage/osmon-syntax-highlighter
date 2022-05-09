@@ -2,7 +2,7 @@
     "name": "osmon",
     "displayName": "Osmon Lang",
     "description": "Osmon Dasturlash Tili uchun VSCode kengaytma",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "publisher": "osmon",
     "repository": {
         "type": "git",
